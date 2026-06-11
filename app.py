@@ -288,9 +288,6 @@ if section == "My Listening":
                     colorbar=dict(
                         title="Listeners",
                         tickformat=".2s",
-                        bgcolor="#121212",
-                        tickfont=dict(color="#FFFFFF"),
-                        titlefont=dict(color="#FFFFFF"),
                     ),
                 ),
                 hovertemplate="<b>%{y}</b><br>%{x:,} listeners<extra></extra>",
